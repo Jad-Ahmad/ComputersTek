@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Computers Tek</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="layout/styles/custom.flexslider.css" rel="stylesheet" type="text/css" media="all">
+<link href="layout/styles/fontawesome-4.6.3.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="layout/styles/framework.css" rel="stylesheet" type="text/css" media="all">
+
+<link rel="shortcut icon" type ="image/x-icon" href="favicon.ico">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+
+<style>
+  /* Popup container - can be anything you want */
+  .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+  </style>
+
+
+
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay" style="background-image:url('pages/images/ba.jpg');"> 
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <div id="logo" class="fl_left">
+        <h1>Computers Tek</h1>
+      </div>
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+          <li><a class="drop" href="#">Service</a>
+            <ul>
+        <li><a  data-toggle="modal" data-target="#exampleModalCenter">software Developement</a> 
+        </li> 
+              <li><a data-toggle="modal" data-target="#exampleModal">Repair</a></li>
+              <li><a data-toggle="modal" href="#myModal2">Activation</a></li>
+            
+			
+            </ul>
+          </li>
+         <li><a href="aboutus.html">About us</a></li>
+          
+        </ul>
+      </nav>
+      <!-- ################################################################################################ -->
+    </header>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div id="pageintro" class="hoc clear">
+    <div class="flexslider basicslider"> 
+      <!-- ################################################################################################ -->
+      <ul class="slides">
+        <li>
+          <article>
+            <p class="heading">Talk is Cheap </p>
+            <h2 class="heading">show me the code</h2>
+            <p>programming is wide world</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <p class="heading">everyone should know how to</p>
+            <h2 class="heading">"code"</h2>
+            <p>it teaches you how to think -steve jobs-</p>
+          </article>
+        </li>
+      </ul>
+      <!-- ################################################################################################ -->
+    </div>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div id="introblocks" class="hoc clear">
+    <ul class="nospace">
+      <!-- ################################################################################################ -->
+      <li>
+        <div><i class="fa fa-3x fa-clock-o"></i>
+          <h4 class="heading">Working hours</h4>
+          <p>10:00 - 8:00 / Mon. - Sat.</p>
+        </div>
+      </li>
+      <li>
+        <div><i class="fa fa-3x fa-phone"></i>
+          <h4 class="heading">Phone Number</h4>
+          <p>1 (313) 436-4048</p>
+        </div>
+      </li>
+      <li>
+        <div><i class="fa fa-3x fa-envelope-o"></i>
+          <h4 class="heading">Send us an Email</h4>
+          <p>dcomputers3701@gmail.com</p>
+        </div>
+      </li>
+      <!-- ################################################################################################ -->
+    </ul>
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+
+
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="btmspace-80 center">
+   
+    </div>
+    <div class="clear">
+      <div class="one_half first">
+        <p>" It had nothing to do with using [programs] for practical things
+          it had more to do with using them as a mirror of your thought proccess.
+          To actually learn how to think. I think everyone in this country should
+          learn to program a computer. Everyone should learn a computer language
+          because it teaches you how to think. I think computer science as a libral art."
+          - Steve Jobs
+        </p>
+        <i class="far fa-address-card"></i>
+        <ul class="nospace group">
+          <li class="one_half first">
+            <article style="margin-top: 20%;"><i class="icon btmspace-30 fa fa-bullseye"></i></a>
+              <h6 class="heading font-x1">Our Mission</h6>
+              <p>
+                We strive to satisfy customer,
+                while repair phones and computers We work to create a welcoming environment for our customers, 
+                while learning and adjusting to their needs and requests.
+			  &hellip;</p>
+            </article>
+          </li>
+        
+        </ul>
+      </div>
+      <div class="one_half"><img class="inspace-10 borderedbox" src="pages/images/pw.jpg" alt=""></div>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+
+
+    <div class="clear"></div>
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper coloured">
+  <article class="hoc cta clear"> 
+    <!-- ################################################################################################ -->
+    <h6 class="three_quarter first">Welcome to Computers Tek</h6>
+ 
+  </article>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row4">
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_third first">
+      <h6 class="heading">Contact Us</h6>
+      <ul class="nospace btmspace-30 linklist contact">
+        <li><i class="fa fa-map-marker"></i>
+          <address>
+           3701 Oakwood Blvd. Melvindale MI 48122
+          </address>
+        </li>
+        <li><i class="fa fa-phone"></i> 1 (313) 436-4048</li>
+        <li><i class="fa fa-envelope-o"></i> computers3701@gmail.com</li>
+      </ul>
+      <ul class="faico clear">
+        <li><a class="faicon-facebook" href="https://www.facebook.com/Jadoski-Group-for-Developing-Design-170379720333720/"><i class="fa fa-facebook"></i></a></li>
+        <li><a class="faicon-twitter" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="faicon-youtube" href="http://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+        <li><a class="faicon-instagram" href="http://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+        <li><a class="faicon-google-plus" href="http://www.plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="heading"></h6>
+      <ul class="nospace linklist">
+        <li>
+          <article>
+           
+                
+               
+              <div class="popup" onclick="myFunction()"><button>Ask question</button>
+                <span class="popuptext" id="myPopup">1 (313) 436-4048</span>
+              </div>
+
+
+          </article>
+        </li>
+        <li>
+          <article>
+            <button type="submit" value="submit">Make Appointment</button>
+          </article>
+        </li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">Get Free Qoutes</h6>
+      <p class="nospace btmspace-30">Just send us an email and we will contact you.</p>
+      <form method="post" action="">
+        <fieldset>
+          <legend>Newsletter:</legend>
+          <div><i class="fa fa-phone"></i> 1 (313) 436-4048</div>
+          <div><i class="fa fa-envelope-o"></i> computers3701@gmail.com</div>
+         
+        </fieldset>
+      </form>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+
+
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ############################################################################################### -->
+    <p class="fl_left">Copyright &copy; 2020 - Computers Tek - All Rights Reserved -</p>
+   
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+
+
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<script src="layout/scripts/jquery.flexslider-min.js"></script>
+</body>
+</html>
+
+
+<!--################################################################################################################-->
+<!--################################################################################################################-->
+<!--################################################################################################################-->
+<!--################################################################################################################-->
+
+<!--MODULES-->
+
+  <!-- Software devlopment Module -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Software Development</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         We serve so many issue in software Development. like 
+         website edition inside your design and your data connection. 
+         in addition we service web application by edition and create from scratch. 
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Repair -->
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- <div class="card border-dark mb-3" style="max-width: 18rem; margin-left: 22%;">
+          <div class="card-header">Repair</div>
+          <div class="card-body text-dark">
+            <h5 class="card-title" style="color: red;">Free Diagnostic</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div> -->
+      </div>
+      <div class="modal-footer">
+   
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Activations -->
+
+<div class="modal" id="myModal2" data-backdrop="static">
+	<div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">2nd Modal title</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        </div><div class="container"></div>
+        <div class="modal-body">
+          <div class="card border-dark mb-3" style="max-width: 18rem; margin-left: 22%;">
+            <div class="card-header">Repair</div>
+            <div class="card-body text-dark">
+              <h5 class="card-title" style="color: red;">Free Diagnostic</h5>
+              <p class="card-text"><img src="pages/images/cell-phone.png">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="modal-footer">
+      
+        </div>
+      </div>
+    </div>
+
+
+<!--################################################################################################################-->
+<!--################################################################################################################-->
+<!--################################################################################################################-->
+<!--################################################################################################################-->
+
+<!--JAVASCRIPT FUNCTIONS-->
+
+<script src="web.js"> 
+
+  </script>
